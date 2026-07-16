@@ -4,6 +4,7 @@
 
 ```
 brew tap trueroad/mew-bin
+brew trust --formula trueroad/mew-bin/mew-bin
 brew install mew-bin
 ```
 
