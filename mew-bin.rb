@@ -1,8 +1,8 @@
 class MewBin < Formula
   desc "Binary of Messaging in the Emacs World"
   homepage "https://www.mew.org/"
-  url "https://github.com/kazu-yamamoto/Mew/archive/refs/tags/v6.10.tar.gz"
-  sha256 "39a273dcf6caad0659151b87710a961471f666e020d799d9a61421b6e83013ca"
+  url "https://github.com/kazu-yamamoto/Mew/archive/refs/tags/v6.11.tar.gz"
+  sha256 "c3930611bd36683bc6f52d769bd0f441e496b2d826a324c4886293913ea0afa8"
   license "BSD-3-Clause"
 
   def install
