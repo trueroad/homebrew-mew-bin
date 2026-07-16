@@ -6,8 +6,9 @@ class MewBin < Formula
   license "BSD-3-Clause"
 
   def install
-    Dir.chdir("bin")
-    system "./configure", "--disable-silent-rules", *std_configure_args
-    system "make", "install"
+    Dir.chdir("bin") do
+      system "./configure", "--disable-silent-rules", *std_configure_args
+      system "make", "install"
+    end
   end
 end
