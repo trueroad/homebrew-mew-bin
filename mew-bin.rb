@@ -3,6 +3,7 @@ class MewBin < Formula
   homepage "https://www.mew.org/"
   url "https://github.com/kazu-yamamoto/Mew/archive/refs/tags/v6.11.tar.gz"
   sha256 "c3930611bd36683bc6f52d769bd0f441e496b2d826a324c4886293913ea0afa8"
+  head "https://github.com/kazu-yamamoto/Mew.git", branch: "master"
   license "BSD-3-Clause"
 
   def install
